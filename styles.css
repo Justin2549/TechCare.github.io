@@ -173,3 +173,22 @@ body {
     transform: translate(0, -5px);
     color: #fdf100;
 }
+
+@media screen  and (max-width: 390px) {
+    .dl-btn {
+        width: 45%;
+        margin: 10px;
+        background-color: black;
+        border-radius: 10px;
+        transition: all 0.2s linear;
+    }
+
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .social-container {
+        padding: 10px;
+    }
+}
