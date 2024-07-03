@@ -26,11 +26,9 @@ body {
     align-items: center;
     flex-direction: column;
 }
-.Iconapp{
-    background-color: #fff;
+.Iconapp img{   
     width: 100px;
     height: 100px;
-    
 }
 .dl-btn {
     width: 35%;
