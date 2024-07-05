@@ -43,6 +43,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
 }
 
 .dl-btn:hover {
@@ -71,10 +75,16 @@ body {
 }
 .about h1{
     padding: 20px 0 20px 40px;
+    webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
 }
 
 .about p{
     padding: 0 0 0 50px;
+    webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
 }
 
 .download-section {
@@ -83,6 +93,10 @@ body {
     width: 100%;
     padding: 0 20px;
     margin: 25px 0;
+
+    webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
 }
 
 .download-section i {
@@ -112,21 +126,39 @@ body {
     padding: 10px;
 }
 
+.contact-text {
+    webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
 .email a {
     font-size: 15px;
     font-weight: 300;
     color: #fff;
     text-decoration: none;
+
+    webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
 }
 .number {
     font-size: 15px;
     font-weight: 300;
     color: #fff;
+
+    webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
 }
 
 .social-text {
     padding: 10px 0 0px 0;
     color: #fff;
+
+    webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
 }
 
 .github a, i {
@@ -134,6 +166,10 @@ body {
     flex-wrap: wrap;
     align-items: center;
     gap: 5px;
+
+    webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
 }
 
 .github a {
@@ -150,6 +186,10 @@ body {
     flex-wrap: wrap;
     align-items: center;
     gap: 5px;
+
+    webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
 }
 
 .facebook a {
